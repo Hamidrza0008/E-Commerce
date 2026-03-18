@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -14,3 +15,7 @@ The React Compiler is not enabled on this template because of its impact on dev 
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+=======
+# E-Commerce
+Elite E-commerce platform built with React, Tailwind CSS, and Redux Toolkit. Features include secure Authentication (Login/Logout), Protected Routes, and dynamic State Management for Cart and Wishlist. Integrated with React Router for seamless navigation across multiple premium-designed pages for a high-performance experience
+>>>>>>> fb568547144d4616631e753a296a4ff6270cd4f8
