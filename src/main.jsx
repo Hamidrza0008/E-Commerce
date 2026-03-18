@@ -10,10 +10,10 @@ import  store  from "../src/Redux_Toolkit/Store.js";
 
 createRoot(document.getElementById('root')).render(
   <Provider store={store}>
-    <BrowserRouter >
-      <StrictMode>
+    <HashRouter  >
+      <StrictMode >
         <App />
       </StrictMode>
-    </BrowserRouter >
+    </HashRouter >
   </Provider>,
 )
