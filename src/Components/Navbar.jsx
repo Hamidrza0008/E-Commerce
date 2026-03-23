@@ -16,14 +16,14 @@ function Navbar() {
       setTimeout(() => {
         scroller.scrollTo(section, {
           smooth: true,
-          offset: -80,
+          offset: -20,
           duration: 200
         });
       }, 100);
     } else {
       scroller.scrollTo(section, {
         smooth: true,
-        offset: -100,
+        offset: 20,
         duration: 500
       });
     }

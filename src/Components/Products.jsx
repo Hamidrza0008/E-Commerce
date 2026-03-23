@@ -29,7 +29,7 @@ function Products() {
   }
 
   return (
-    <section className="px-4 md:px-12 py-24 bg-[#050505]">
+    <section id="product" className="px-4 md:px-12 py-24 bg-[#050505]">
       {/* Section Header */}
       <div className="flex flex-col items-start mb-12 border-l-4 border-[#D4AF37] pl-6">
         <p className="text-[#D4AF37] text-[10px] uppercase tracking-[0.4em] font-bold mb-2">Exclusively Curated</p>
@@ -40,7 +40,7 @@ function Products() {
 
       {/* 5x5 Grid Layout - Desktop par 5 columns fix kar diye hain */}
       <div
-        id="product"
+        
         className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 md:gap-6"
       >
         {products.map((product) => {
